@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E8E18EF2753CBCB00256F2F /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E18EE2753CBCB00256F2F /* OverviewViewModel.swift */; };
+		3E8E18F32753CD4300256F2F /* LocalVideos.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E18F22753CD4300256F2F /* LocalVideos.json */; };
+		3E8E18F62753CD5200256F2F /* RemoteVideos.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E18F52753CD5200256F2F /* RemoteVideos.json */; };
+		3E8E18FB2753D2AB00256F2F /* newYorkFlip.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E18F92753CE1100256F2F /* newYorkFlip.mp4 */; };
 		3EF835092753BB9200B49B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF835082753BB9200B49B02 /* AppDelegate.swift */; };
 		3EF8350B2753BB9200B49B02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8350A2753BB9200B49B02 /* SceneDelegate.swift */; };
-		3EF8350D2753BB9200B49B02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8350C2753BB9200B49B02 /* ViewController.swift */; };
 		3EF835102753BB9200B49B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF8350E2753BB9200B49B02 /* Main.storyboard */; };
 		3EF835122753BB9A00B49B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF835112753BB9A00B49B02 /* Assets.xcassets */; };
 		3EF835152753BB9A00B49B02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF835132753BB9A00B49B02 /* LaunchScreen.storyboard */; };
+		3EF835252753BC2600B49B02 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF835242753BC2600B49B02 /* VideoPlayerViewController.swift */; };
+		3EF835282753BC5A00B49B02 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF835272753BC5A00B49B02 /* Video.swift */; };
+		3EF835302753BF1100B49B02 /* VideoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8352F2753BF1100B49B02 /* VideoRepository.swift */; };
+		3EF835362753C0D200B49B02 /* VideoOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF835352753C0D200B49B02 /* VideoOverviewViewController.swift */; };
+		3EF8353C2753C11700B49B02 /* OverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8353A2753C11700B49B02 /* OverviewTableViewCell.swift */; };
+		3EF8353D2753C11700B49B02 /* OverviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF8353B2753C11700B49B02 /* OverviewTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E8E18EE2753CBCB00256F2F /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
+		3E8E18F22753CD4300256F2F /* LocalVideos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LocalVideos.json; sourceTree = "<group>"; };
+		3E8E18F52753CD5200256F2F /* RemoteVideos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RemoteVideos.json; sourceTree = "<group>"; };
+		3E8E18F92753CE1100256F2F /* newYorkFlip.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newYorkFlip.mp4; sourceTree = "<group>"; };
 		3EF835052753BB9200B49B02 /* VideoStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF835082753BB9200B49B02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EF8350A2753BB9200B49B02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3EF8350C2753BB9200B49B02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EF8350F2753BB9200B49B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EF835112753BB9A00B49B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EF835142753BB9A00B49B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EF835162753BB9A00B49B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF835242753BC2600B49B02 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		3EF835272753BC5A00B49B02 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		3EF8352F2753BF1100B49B02 /* VideoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRepository.swift; sourceTree = "<group>"; };
+		3EF835352753C0D200B49B02 /* VideoOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoOverviewViewController.swift; sourceTree = "<group>"; };
+		3EF8353A2753C11700B49B02 /* OverviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTableViewCell.swift; sourceTree = "<group>"; };
+		3EF8353B2753C11700B49B02 /* OverviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverviewTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E8E18F12753CD2100256F2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E18F82753CE0200256F2F /* Local videos */,
+				3E8E18F22753CD4300256F2F /* LocalVideos.json */,
+				3E8E18F52753CD5200256F2F /* RemoteVideos.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3E8E18F82753CE0200256F2F /* Local videos */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E18F92753CE1100256F2F /* newYorkFlip.mp4 */,
+			);
+			path = "Local videos";
+			sourceTree = "<group>";
+		};
 		3EF834FC2753BB9200B49B02 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +94,68 @@
 			children = (
 				3EF835082753BB9200B49B02 /* AppDelegate.swift */,
 				3EF8350A2753BB9200B49B02 /* SceneDelegate.swift */,
-				3EF8350C2753BB9200B49B02 /* ViewController.swift */,
+				3EF835422753C95C00B49B02 /* Presentation */,
+				3EF835412753C94B00B49B02 /* Infrastructure */,
+				3EF835432753C97500B49B02 /* Supporting Files */,
+			);
+			path = VideoStreaming;
+			sourceTree = "<group>";
+		};
+		3EF835222753BBF500B49B02 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3EF835242753BC2600B49B02 /* VideoPlayerViewController.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		3EF835342753C0BE00B49B02 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				3EF835352753C0D200B49B02 /* VideoOverviewViewController.swift */,
+				3E8E18EE2753CBCB00256F2F /* OverviewViewModel.swift */,
+				3EF835392753C0FD00B49B02 /* Cells */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		3EF835392753C0FD00B49B02 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3EF8353A2753C11700B49B02 /* OverviewTableViewCell.swift */,
+				3EF8353B2753C11700B49B02 /* OverviewTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EF835412753C94B00B49B02 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E18F12753CD2100256F2F /* Resources */,
+				3EF835272753BC5A00B49B02 /* Video.swift */,
+				3EF8352F2753BF1100B49B02 /* VideoRepository.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		3EF835422753C95C00B49B02 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
 				3EF8350E2753BB9200B49B02 /* Main.storyboard */,
+				3EF835342753C0BE00B49B02 /* Overview */,
+				3EF835222753BBF500B49B02 /* VideoPlayer */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3EF835432753C97500B49B02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				3EF835112753BB9A00B49B02 /* Assets.xcassets */,
 				3EF835132753BB9A00B49B02 /* LaunchScreen.storyboard */,
 				3EF835162753BB9A00B49B02 /* Info.plist */,
 			);
-			path = VideoStreaming;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +215,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8E18FB2753D2AB00256F2F /* newYorkFlip.mp4 in Resources */,
+				3EF8353D2753C11700B49B02 /* OverviewTableViewCell.xib in Resources */,
+				3E8E18F32753CD4300256F2F /* LocalVideos.json in Resources */,
 				3EF835152753BB9A00B49B02 /* LaunchScreen.storyboard in Resources */,
 				3EF835122753BB9A00B49B02 /* Assets.xcassets in Resources */,
 				3EF835102753BB9200B49B02 /* Main.storyboard in Resources */,
+				3E8E18F62753CD5200256F2F /* RemoteVideos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EF8350D2753BB9200B49B02 /* ViewController.swift in Sources */,
+				3EF8353C2753C11700B49B02 /* OverviewTableViewCell.swift in Sources */,
+				3EF835252753BC2600B49B02 /* VideoPlayerViewController.swift in Sources */,
+				3EF835302753BF1100B49B02 /* VideoRepository.swift in Sources */,
+				3EF835362753C0D200B49B02 /* VideoOverviewViewController.swift in Sources */,
+				3EF835282753BC5A00B49B02 /* Video.swift in Sources */,
+				3E8E18EF2753CBCB00256F2F /* OverviewViewModel.swift in Sources */,
 				3EF835092753BB9200B49B02 /* AppDelegate.swift in Sources */,
 				3EF8350B2753BB9200B49B02 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H93268K99;
-				INFOPLIST_FILE = VideoStreaming/Info.plist;
+				INFOPLIST_FILE = "VideoStreaming/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = appsolut.VideoStreaming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H93268K99;
-				INFOPLIST_FILE = VideoStreaming/Info.plist;
+				INFOPLIST_FILE = "VideoStreaming/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = appsolut.VideoStreaming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
